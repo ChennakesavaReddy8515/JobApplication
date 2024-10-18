@@ -1,0 +1,79 @@
+body
+{
+    background-image:url(./images/jspimg.jpg) ;
+    font-family: "Comic Sans MS", sans-serif;
+   
+    background-attachment: fixed;
+}
+h1
+{
+    text-align: center;
+    font-family: "Old English Text MT",sans-serif;
+    text-shadow: 0 0 4px red;
+    color: white;
+    font-size: 35px;
+}
+table
+{
+    width:100%;
+}
+fieldset
+{
+    
+    border: 2px solid white;
+    border-radius:0px 20px 0px 20px;
+    padding: 12px;
+    margin: 15px;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px black;
+    color: white;
+}
+fieldset legend
+{
+    font-family: "Old English Text MT",sans-serif;
+    background-image: url(./images/jspimg2.jpg);
+    padding: 12px 25px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px black;
+}
+table tr{
+    font-size: 18px;
+    padding: 5px;
+}
+table td
+{
+    font-size: 18px;
+    padding: 5px;
+    margin-right: 5px;
+   width: 40px;;
+}
+.button{
+    background-image: url(./images/jspimg2.jpg);
+    font-family: "Old English Text MT",sans-serif;
+    padding: 12px 25px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 0 10px black;
+    color:black;
+    width: 150px;
+    color:white;
+}
+    .button:hover{
+        box-shadow: 0 0 10px white;
+        cursor: pointer;
+    }
+    input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="month"],
+select{
+    font-size: 18px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
